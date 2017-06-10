@@ -1,0 +1,40 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Clarion 2.1.0.2447
+#! ================================================================================================
+#!                                    DEVUNA - Icon Picker Class
+#! ================================================================================================
+#! Author:  Randy Rogers (KCR) <rrogers@devuna.com>
+#! Notice:  Copyright (C) 2017, Devuna
+#!          Distributed under LGPLv3 (http://www.gnu.org/licenses/lgpl.html) 
+#! ================================================================================================
+#!    This file is part of Devuna-ctIconPicker (https://github.com/Devuna/Devuna-ctIconPicker)         
+#! 
+#!    ctIconPicker is free software: you can redistribute it and/or modify 
+#!    it under the terms of the GNU General Public License as published by 
+#!    the Free Software Foundation, either version 3 of the License, or 
+#!    (at your option) any later version. 
+#! 
+#!    ctIconPicker is distributed in the hope that it will be useful, 
+#!    but WITHOUT ANY WARRANTY; without even the implied warranty of 
+#!    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+#!    GNU General Public License for more details. 
+#! 
+#!    You should have received a copy of the GNU General Public License 
+#!    along with ctIconPicker.  If not, see <http://www.gnu.org/licenses/>. 
+#! ================================================================================================
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "IconPicker", "IconPicker.cwproj", "{998C4720-F842-4F72-9D38-209403CAFFA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{998C4720-F842-4F72-9D38-209403CAFFA5}.Debug|Win32.Build.0 = Debug|Win32
+		{998C4720-F842-4F72-9D38-209403CAFFA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{998C4720-F842-4F72-9D38-209403CAFFA5}.Release|Win32.Build.0 = Release|Win32
+		{998C4720-F842-4F72-9D38-209403CAFFA5}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+EndGlobal

@@ -106,9 +106,14 @@ ctIconPicker.Destruct              PROCEDURE()   !,VIRTUAL
       END
       RETURN
 
-ctIconPicker.Init                  PROCEDURE(LONG nButtonsPerRow, LONG nButtonWidth, LONG nButtonHeight, LONG nButtonOffset)   !,BOOL   !,VIRTUAL
+ctIconPicker.Init                  PROCEDURE(LONG nButtonsPerRow, LONG nButtonWidth, LONG nButtonHeight, LONG nButtonOffset, <STRING sLibraryName>)   !,BOOL   !,VIRTUAL
    CODE
-      SELF.m_ResourceName = ''
+      IF OMITTED(sLibraryName)
+         SELF.m_ResourceName = ''
+      ELSE
+         SELF.m_ResourceName = sLibraryName
+      END
+      szLibraryName = SELF.m_ResourceName
       SELF.SetButtonsPerRow(nButtonsPerRow)
       SELF.SetButtonWidth(nButtonWidth)
       SELF.SetButtonHeight(nButtonHeight)
@@ -119,15 +124,16 @@ ctIconPicker.Ask                   PROCEDURE()   !,VIRTUAL
 hModule              HANDLE
 hIcon                ULONG
 
-Window WINDOW('Select Icon...'),AT(,,320,240),CENTER,VSCROLL,GRAY,SYSTEM !,DOCK(DOCK:float),DOCKED(DOCK:float),TOOLBOX,
-       MENUBAR
+Window WINDOW('Select Icon...'),AT(,,320,240),CENTER,GRAY,SYSTEM,COLOR(COLOR:APPWORKSPACE), |
+         VSCROLL,RESIZE
+      MENUBAR,USE(?MENUBAR1)
          MENU('&File'),USE(?File)
-           ITEM('&Open...'),USE(?FileOpen)
-           ITEM,SEPARATOR
-           ITEM('&Close'),USE(?FileClose),STD(STD:Close)
+            ITEM('&Open...'),USE(?FileOpen)
+            ITEM(''),SEPARATOR,USE(?SEPARATOR1)
+            ITEM('&Close'),USE(?FileClose),STD(STD:Close)
          END
-       END
-     END
+      END
+   END
 
    CODE
       kcr_GetWindowRect(0{PROP:Handle},SELF.m_rcParent)

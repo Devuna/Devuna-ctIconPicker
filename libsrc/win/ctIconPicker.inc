@@ -59,7 +59,7 @@ m_nButtonOffset      LONG,PRIVATE
 Construct            PROCEDURE
 Destruct             PROCEDURE,VIRTUAL
 Ask                  PROCEDURE(),STRING,VIRTUAL
-Init                 PROCEDURE(LONG nButtonsPerRow, LONG nButtonWidth, LONG nButtonHeight, LONG nButtonOffset),BOOL,PROC,VIRTUAL
+Init                 PROCEDURE(LONG nButtonsPerRow, LONG nButtonWidth, LONG nButtonHeight, LONG nButtonOffset, <STRING sLibraryName>),BOOL,PROC,VIRTUAL
 GetButtonsPerRow     PROCEDURE(),LONG,VIRTUAL
 SetButtonsPerRow     PROCEDURE(LONG nValue),VIRTUAL
 GetButtonWidth       PROCEDURE(),LONG,VIRTUAL
