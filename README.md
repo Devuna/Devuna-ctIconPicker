@@ -1,20 +1,21 @@
-# ctIconPicker
-## Icon Picker Class written in and for Clarion for Windows
+# ctIconPicker #
+
+### Icon Picker Class written in and for Clarion for Windows ###
 
 ## License ##
 Distributed under [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.txt "GPL 3.0")
 
-## ctIconPicker Overview ##
+## Overview ##
 
 In some of our applications we allowed the user to create 'user-defined' buttons to call their favorite programs, WORD.EXE e.g.  ctIconPicker is a class we developed to allow the user to associate an icon resources with their buttons.
 
 The class provides an example of using PROCTYPE and the Windows [EnumResourceNames](https://msdn.microsoft.com/en-us/library/windows/desktop/ms648037(v=vs.85).aspx "EnumResourceNames function") function which takes a FUNCTION as one of its parameters.
 
-### ctIconPicker Screen Shot ###
+### Screen Shot ###
 
 ![Screen Capture](images/ctIconPicker.png)
 
-### ctIconPicker Source Files ###
+### Source Files ###
 
 The ctIconPicker source code should be installed to the Clarion \accessory\libsrc\win folder. The ctIconPicker source code and its respective components are contained in:
 
@@ -23,7 +24,7 @@ The ctIconPicker source code should be installed to the Clarion \accessory\libsr
  
  **ctIconPicker.clw** ctIconPicker method definitions
  
-### ctIconPicker Conceptual Example ###
+### Conceptual Example ###
 
        PROGRAM
     
