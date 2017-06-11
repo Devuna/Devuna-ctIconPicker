@@ -62,9 +62,9 @@ Please see the IconPicker example for a more details.
 
 ## Documentation ##
 
-### [Properties](ctIconPickerProperty) ###
+### [Properties](http://Devuna.GetHub.io/ctIconPickerProperty) ###
 
-### [Methods](ctIconPickerMethod) ###
+### [Methods](http://Devuna.GetHub.io/ctIconPickerMethod) ###
 
 ## Release Notes ##
 1. June 11, 2017 - README.md updated 
