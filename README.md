@@ -12,7 +12,7 @@ The class provides an example of using PROCTYPE and the Windows [EnumResourceNam
 
 ### ctIconPicker Screen Shot ###
 
-![Screen Capture](https://github.com/Devuna/Devuna-ctIconPicker/images/ctIconPicker.png)
+![Screen Capture](images/ctIconPicker.png)
 
 ### ctIconPicker Source Files ###
 
