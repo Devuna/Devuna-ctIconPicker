@@ -20,9 +20,9 @@ template/win - SoftVelocity/Clarion10/Accessory/template/win
 
 --------
 
-[**Properties**](http://devuna.github.io/ctIconPicker/ctIconPickerProperty)
+[**Properties**](http://devuna.github.io/Devuna-ctIconPicker/ctIconPickerProperty)
 
-[**Methods**](http://devuna.github.io/ctIconPicker/ctIconPickerMethod)
+[**Methods**](http://devuna.github.io/Devuna-ctIconPicker/ctIconPickerMethod)
 
 
 
