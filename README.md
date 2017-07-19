@@ -3,7 +3,7 @@
 ### Icon Picker Class written in and for Clarion for Windows ###
 
 ## License ##
-Distributed under [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.txt "GPL 3.0")
+Distributed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Overview ##
 
